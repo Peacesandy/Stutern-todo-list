@@ -1,19 +1,12 @@
-*{
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
-}
-
-ul li {
-    cursor: pointer;
-    position: relative;
-    padding: 12px 8px 12px 40px;
-    background: #e94f4f;
-    font-size: 20px;
-    color: #fff;
-    transition: 0.2s;
-
+body{
+    height: 100vh;
+    background: #066acd;
 }
